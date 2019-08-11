@@ -1,0 +1,38 @@
+{
+    "name": "staindgt/simple-converter",
+    "type": "library",
+    "description": "Simple converter",
+    "keywords": [
+        "converter",
+        "xml",
+        "json"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Sokolov",
+            "email": "staindgt@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Staindgt\\SimpleConverter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
